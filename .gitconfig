@@ -1,0 +1,14 @@
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+[color]
+    diff = always
+    status = always
+[core]
+    editor = vim
+
+[rebase]
+    autosquash = true
+
+[push]
+    default = matching
